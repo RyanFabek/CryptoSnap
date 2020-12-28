@@ -4,7 +4,14 @@
 from PIL import Image
 import math
 
-
+#-------------------------------------
+#Function Name: hideMessage
+#Description: hides txt message in image using LSB method
+#Parameters:
+#filename - name of image file
+#message - txt message to hide
+#Return: None
+#-------------------------------------
 def hideMesssage(filename, message):
 
     #Local Variables
@@ -92,7 +99,14 @@ def hideMesssage(filename, message):
 
     return pixels
 
-
+#-------------------------------------
+#Function Name: showMessage
+#Description: 
+#Parameters:
+#filename - name of image file
+#message - txt message to hide
+#Return: None
+#-------------------------------------
 def showMessage(filename):
 
     #Local variables
@@ -158,5 +172,5 @@ def asciiToBin(message):
 
 
 #main
-print(hideMesssage("test.png", "aaasdf"))
+print(hideMesssage("test.png", "Hello"))
 print(showMessage("test.png"))
