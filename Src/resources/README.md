@@ -2,7 +2,7 @@
 
 A simple application to hide text message data in images. Created with Python, PySide6 framework.  
 
-# Table of Contents
+# Table of contents
 
 * [Background](#background)
 * [Technologies](#technologies)
