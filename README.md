@@ -1,4 +1,4 @@
-# Crypto - Steganography Applicaton
+# Steganosaurus - Steganography Applicaton
 
 A simple application to hide text message data in images. Created with Python, PySide6 framework.  
 
